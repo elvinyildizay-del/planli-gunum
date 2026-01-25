@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Planlı Günüm | Necip Fazıl Kısakürek Fen Lisesi – Şanlıurfa</title>
+
+  <meta name="description" content="Şanlıurfa’daki Necip Fazıl Kısakürek Fen Lisesi öğrencileri tarafından geliştirilen, günlük planlama ve çalışma süresi takibi yapmayı amaçlayan okul projesi.">
+  <meta name="keywords" content="planlı günüm, çalışma takibi, ders programı, kronometre, fen lisesi, şanlıurfa, okul projesi">
+  <meta name="author" content="Necip Fazıl Kısakürek Fen Lisesi Öğrencileri">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📌 Planlı Günüm</h1>
+  <p id="date"></p>
+
+  <div class="motivation-box">
+    <p id="motivationText"></p>
+  </div>
+
+  <div class="todo-box">
+    <input type="text" id="taskInput" placeholder="Bugün ne yapacaksın?">
+    <button onclick="addTask()">Ekle</button>
+
+    <h2>📝 Yapılacaklar</h2>
+    <ul id="taskList"></ul>
+
+    <h2>✅ Tamamlananlar</h2>
+    <ul id="doneList"></ul>
+  </div>
+
+  <div class="timer-box">
+    <h2>⏱️ Çalışma Kronometresi</h2>
+    <p id="timer">00:00:00</p>
+    <button onclick="startTimer()">Başlat</button>
+    <button onclick="stopTimer()">Mola</button>
+    <button onclick="resetTimer()">Sıfırla</button>
+  </div>
+
+  <div class="week-box">
+    <h2>📅 Haftalık Çalışma Süresi</h2>
+    <ul id="weekList"></ul>
+  </div>
+
+  <div class="mood-box">
+    <p>Günün nasıldı?</p>
+    <button onclick="setMood('🌟 Mükemmel geçti')">🌟</button>
+    <button onclick="setMood('🙂 Ortalama')">🙂</button>
+    <button onclick="setMood('😞 Kötü')">😞</button>
+    <p id="moodResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
