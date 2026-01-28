@@ -1,2 +1,2 @@
-# workUp
-Şanlıurfa’daki Necip Fazıl Kısakürek Fen Lisesi öğrencileri tarafından geliştirilen, günlük plan ve çalışma takibi amaçlı bir okul projesi.
+# WorkUp
+“WorkUp, Şanlıurfa Necip Fazıl Kısakürek Fen Lisesi öğrencilerinin günlük planlama, odaklanma ve süre yönetimini tek bir platformda kolayca yapabilmesini sağlayan sade ve modern bir çalışma asistanıdır.”
